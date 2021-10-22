@@ -13,6 +13,8 @@ int main()
     printf("Coeficiente C :");
     scanf("%lf", c);
 
+    delta = pow(b, 2.0) - 4 * a * c;
+
 
     return 0;
 }
