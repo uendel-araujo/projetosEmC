@@ -24,7 +24,7 @@ int main()
         menor = c;
     }
 
-    printf("MENOR = %d\n,", menor);
+    printf("MENOR = %d\n", menor);
 
     return 0;
 }
