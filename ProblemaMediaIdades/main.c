@@ -14,7 +14,7 @@ int main()
 
     while(idade >= 0) {
         soma = soma + idade;
-        cont++;
+        cont = cont + 1;
 
         scanf("%d", &idade);
     }
@@ -24,7 +24,7 @@ int main()
     }
     else {
         media = (double) soma / cont;
-        printf("MEDIA = %.2lf\n", &media);
+        printf("MEDIA = %.2lf\n", media);
     }
     return 0;
 }
