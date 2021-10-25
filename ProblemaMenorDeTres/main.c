@@ -6,23 +6,25 @@ int main()
     int a, b, c, menor;
 
     printf("Primeiro Valor: ");
-    scanf("%d",a);
+    scanf("%d",&a);
 
     printf("Segundo Valor: ");
-    scanf("%d",b);
+    scanf("%d",&b);
 
     printf("Terceiro Valor: ");
-    scanf("%d",c);
+    scanf("%d",&c);
 
     if (a < b && a < c) {
         menor = a;
     }
-    else if (b < a && b < c) {
+    else if (b < c) {
         menor = b;
     }
     else {
         menor = c;
     }
+
+    printf("MENOR = %d\n,", menor);
 
     return 0;
 }
