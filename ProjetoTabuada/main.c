@@ -10,7 +10,7 @@ int main()
 
     for (i = 1; i <= 10; i++) {
       produto = N * i;
-      printf("%d x %d = %d", N , i, produto);
+      printf("%d x %d = %d \n", N , i, produto);
     }
 
     return 0;
