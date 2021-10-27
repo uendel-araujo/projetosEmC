@@ -11,8 +11,8 @@ int main()
     int mat[N][N];
 
     for(int i=0; i < N; i++){
-        for(int j = 0; j < N, j++){
-            printf("Elemento [%d,%d]: ");
+        for(int j = 0; j < N; j++){
+            printf("Elemento [%d,%d]: ", i, j);
             scanf("%d", &mat[i][j]);
         }
     }
